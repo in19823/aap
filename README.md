@@ -16,7 +16,20 @@ aap                     // app root
 ```
 # BACKEND: NodeJs + Express + MongoDB
 
-## Supported End Point
+#### MongoDB is required to run the app, please update the config.json accordingly
+#### Steps to Setup
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run Server
+
+```bash
+node app.js
+```
 
 ### GET a list of asset, with default page limit
 > /asset
