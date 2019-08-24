@@ -39,5 +39,7 @@ node app.js
 
 I would add a test folder to add unit and end-to-end testing, current implemention only support a paginated list query.
 
+I would also further wrap all environment variables, such as port number, into the JSON config file.
+
 
 # FRONTEND: TBD
