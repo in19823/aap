@@ -31,6 +31,12 @@ npm install
 node app.js
 ```
 
+3. Run Test
+
+```bash
+npm test
+```
+
 ### GET a list of asset, with default page limit
 > /asset
 
