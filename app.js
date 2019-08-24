@@ -31,7 +31,7 @@ app.use('/api/', apiRouter);
 
 
 app.all('*', (req, res) => {
-	return response.notFoundResponse(res, 'Page not found!');
+    return response.notFoundResponse(res, 'Page not found!');
 });
 
 
