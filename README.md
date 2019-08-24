@@ -13,6 +13,7 @@ aap                     // app root
       +-- helpers       // helper functions, such as response template
       +-- models        // data models
       +-- routes        // routing logics
+ +-- test               // unit tests
 ```
 # BACKEND: NodeJs + Express + MongoDB
 
