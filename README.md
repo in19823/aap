@@ -18,10 +18,10 @@ aap                     // app root
 
 ## Supported End Point
 
-### To GET a list of asset, with default page limit
+### GET a list of asset, with default page limit
 > /asset
 
-### To GET a specific page with given page limit
+### GET a specific page with given page limit
 > /asset?limit=10&lastId=5d60bccd7e0b43397e171ce5
 
 I would add a test folder to add unit and end-to-end testing, current implemention only support a paginated list query.
