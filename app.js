@@ -1,4 +1,4 @@
-const config = require('./config/config')
+const config = require('./config/config');
 const express = require('express');
 const bodyParser = require('body-parser');
 const indexRouter = require('./server/routes/index');

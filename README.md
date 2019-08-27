@@ -44,9 +44,11 @@ npm test
 ### GET a specific page with given page limit
 > /asset?limit=10&lastId=5d60bccd7e0b43397e171ce5
 
-I would add a test folder to add unit and end-to-end testing, current implemention only support a paginated list query.
+## Improvements due
 
-I would also further wrap all environment variables, such as port number, into the JSON config file.
-
+⋅⋅* Struct an authentication layer, support SSO. I would avoid in-house authentication.
+..* Struct an authorization layer, with OAuth2 standard. It's best to use an existing reliable library.
+..* Containerize the app for easy setup/deploy.
+..* Use cloud storage to store static music files, secure the files with authorization mechanism.
 
 # FRONTEND: TBD
