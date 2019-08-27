@@ -46,9 +46,9 @@ npm test
 
 ## Improvements due
 
-⋅⋅* Struct an authentication layer, support SSO. I would avoid in-house authentication.
-..* Struct an authorization layer, with OAuth2 standard. It's best to use an existing reliable library.
-..* Containerize the app for easy setup/deploy.
-..* Use cloud storage to store static music files, secure the files with authorization mechanism.
+* Struct an authentication layer, support SSO. I would avoid in-house authentication.
+* Struct an authorization layer, with OAuth2 standard. It's best to use an existing reliable library.
+* Containerize the app for easy setup/deploy.
+* Use cloud storage to store static music files, secure the files with authorization mechanism.
 
 # FRONTEND: TBD
